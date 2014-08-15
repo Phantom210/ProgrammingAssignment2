@@ -1,7 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The code below mimics the example shown in the assignment
+## It replaces the mean function with solve function and changes the function names
 
-## Write a short comment describing this function
+## solve function returns the inverse of a square matrix
+
+## makeCacheMatrix creates the matrix and sets inverse to null 
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
@@ -18,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Catches the inverse of a matrix if already saved. else, calculates it.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
